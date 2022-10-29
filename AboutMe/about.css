@@ -104,6 +104,21 @@ li{
     border-color: hsl(142, 90%, 61%);
 
 }
+@media screen and (max-width: 1100px) {
+    .Main-Para{
+        transform: scale(.6);
+        left: 3%;
+        
+    }
+    #skills-button{
+        visibility: hidden;
+    }
+    .Skills{
+        transform: scale(.6);
+        left: 3%;
+        visibility: visible;
+    }
+  }
 
 #skills-button:hover{
     background-color: whitesmoke;
